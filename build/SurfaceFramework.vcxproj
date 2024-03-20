@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3AD5E7A6-0401-357C-993D-22C9CF1EDF51}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SurfaceFramework</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SurfaceFramework.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SurfaceFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SurfaceFramework.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SurfaceFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\SurfaceFramework_autogen\include_Debug;C:\PCL 1.9.1\3rdParty\Eigen;D:\openmesh8.1\OpenMesh 8.1\include;D:\QT\5.13.0\msvc2017_64\include;D:\QT\5.13.0\msvc2017_64\include\QtWidgets;D:\QT\5.13.0\msvc2017_64\include\QtGui;D:\QT\5.13.0\msvc2017_64\include\QtANGLE;D:\QT\5.13.0\msvc2017_64\include\QtCore;D:\QT\5.13.0\msvc2017_64\.\mkspecs\win32-msvc;D:\QT\5.13.0\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_USE_MATH_DEFINES;QT_WIDGETS_LIB;OM_STATIC_BUILD;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\SurfaceFramework_autogen\include_Debug;C:\PCL 1.9.1\3rdParty\Eigen;D:\openmesh8.1\OpenMesh 8.1\include;D:\QT\5.13.0\msvc2017_64\include;D:\QT\5.13.0\msvc2017_64\include\QtWidgets;D:\QT\5.13.0\msvc2017_64\include\QtGui;D:\QT\5.13.0\msvc2017_64\include\QtANGLE;D:\QT\5.13.0\msvc2017_64\include\QtCore;D:\QT\5.13.0\msvc2017_64\.\mkspecs\win32-msvc;D:\QT\5.13.0\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\SurfaceFramework_autogen\include_Debug;C:\PCL 1.9.1\3rdParty\Eigen;D:\openmesh8.1\OpenMesh 8.1\include;D:\QT\5.13.0\msvc2017_64\include;D:\QT\5.13.0\msvc2017_64\include\QtWidgets;D:\QT\5.13.0\msvc2017_64\include\QtGui;D:\QT\5.13.0\msvc2017_64\include\QtANGLE;D:\QT\5.13.0\msvc2017_64\include\QtCore;D:\QT\5.13.0\msvc2017_64\.\mkspecs\win32-msvc;D:\QT\5.13.0\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target SurfaceFramework</Message>
+      <Command>setlocal
+cd D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/CMakeFiles/SurfaceFramework_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\QT\5.13.0\msvc2017_64\bin\windeployqt.exe D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/Debug/SurfaceFramework.exe --debug --qmldir D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\QT\5.13.0\msvc2017_64\lib\Qt5OpenGLd.lib;OpenMeshCored.lib;OpenMeshToolsd.lib;opengl32.lib;glu32.lib;D:\QT\5.13.0\msvc2017_64\lib\Qt5Widgetsd.lib;D:\QT\5.13.0\msvc2017_64\lib\Qt5Guid.lib;D:\QT\5.13.0\msvc2017_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/openmesh8.1/OpenMesh 8.1/lib;D:/openmesh8.1/OpenMesh 8.1/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/Debug/SurfaceFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/Debug/SurfaceFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CGAL4.8.1\auxiliary\gmp\include;D:\CGAL4.8.1\include;C:\PCL 1.9.1\3rdParty\Qhull\include;C:\PCL 1.9.1\3rdParty\VTK\include\vtk-8.1;C:\PCL 1.9.1\3rdParty\OpenNI2\Include;C:\PCL 1.9.1\3rdParty\FLANN\include;C:\PCL 1.9.1\3rdParty\Boost\include\boost-1_68;C:\PCL 1.9.1\include\pcl-1.9\pcl;C:\PCL 1.9.1\include\pcl-1.9;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\SurfaceFramework_autogen\include_Release;C:\PCL 1.9.1\3rdParty\Eigen\eigen3;D:\openmesh8.1\OpenMesh 8.1\include;D:\QT\5.13.0\msvc2017_64\include;D:\QT\5.13.0\msvc2017_64\include\QtWidgets;D:\QT\5.13.0\msvc2017_64\include\QtGui;D:\QT\5.13.0\msvc2017_64\include\QtANGLE;D:\QT\5.13.0\msvc2017_64\include\QtCore;D:\QT\5.13.0\msvc2017_64\.\mkspecs\win32-msvc;D:\QT\5.13.0\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\SurfaceFramework_autogen\include_Release;C:\PCL 1.9.1\3rdParty\Eigen;D:\openmesh8.1\OpenMesh 8.1\include;D:\QT\5.13.0\msvc2017_64\include;D:\QT\5.13.0\msvc2017_64\include\QtWidgets;D:\QT\5.13.0\msvc2017_64\include\QtGui;D:\QT\5.13.0\msvc2017_64\include\QtANGLE;D:\QT\5.13.0\msvc2017_64\include\QtCore;D:\QT\5.13.0\msvc2017_64\.\mkspecs\win32-msvc;D:\QT\5.13.0\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\SurfaceFramework_autogen\include_Release;C:\PCL 1.9.1\3rdParty\Eigen;D:\openmesh8.1\OpenMesh 8.1\include;D:\QT\5.13.0\msvc2017_64\include;D:\QT\5.13.0\msvc2017_64\include\QtWidgets;D:\QT\5.13.0\msvc2017_64\include\QtGui;D:\QT\5.13.0\msvc2017_64\include\QtANGLE;D:\QT\5.13.0\msvc2017_64\include\QtCore;D:\QT\5.13.0\msvc2017_64\.\mkspecs\win32-msvc;D:\QT\5.13.0\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target SurfaceFramework</Message>
+      <Command>setlocal
+cd D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/CMakeFiles/SurfaceFramework_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\QT\5.13.0\msvc2017_64\bin\windeployqt.exe D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/Release/SurfaceFramework.exe --release --qmldir D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\QT\5.13.0\msvc2017_64\lib\Qt5OpenGL.lib;opengl32.lib;OpenMeshCore.lib;OpenMeshTools.lib;glu32.lib;D:\QT\5.13.0\msvc2017_64\lib\Qt5Widgets.lib;D:\QT\5.13.0\msvc2017_64\lib\Qt5Gui.lib;D:\QT\5.13.0\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;sanjiaohuaLib.lib;pcl_common_release.lib;
+pcl_features_release.lib
+;pcl_filters_release.lib;
+pcl_io_release.lib
+;pcl_io_ply_release.lib
+;pcl_kdtree_release.lib;
+pcl_keypoints_release.lib;
+pcl_ml_release.lib;
+pcl_octree_release.lib;
+pcl_outofcore_release.lib;pcl_people_release.lib;
+pcl_recognition_release.lib;
+pcl_registration_release.lib;
+pcl_sample_consensus_release.lib;
+pcl_search_release.lib
+;pcl_segmentation_release.lib;
+pcl_stereo_release.lib;
+pcl_surface_release.lib;
+pcl_tracking_release.lib;
+pcl_visualization_release.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\x64\Release\ZERO_CHECK;D:\boost_1_65_0\lib64-msvc-12.0;D:\boost_1_65_0\libs;D:\CGAL4.8.1\auxiliary\gmp\lib;D:\CGAL-5.6\lib;C:\PCL 1.9.1\3rdParty\VTK\lib;C:\PCL 1.9.1\3rdParty\Qhull\lib;C:\PCL 1.9.1\3rdParty\OpenNI2\Lib;C:\PCL 1.9.1\3rdParty\FLANN\lib;C:\PCL 1.9.1\3rdParty\Boost\lib;C:\PCL 1.9.1\lib;D:/openmesh8.1/OpenMesh 8.1/lib;D:/openmesh8.1/OpenMesh 8.1/lib/$(Configuration);D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/Release/SurfaceFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/Release/SurfaceFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\surfacemeshprocessing.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qrc_surfacemeshprocessing.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\QT\5.13.0\msvc2017_64\bin\rcc.exe --name surfacemeshprocessing --output D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/qrc_surfacemeshprocessing.cpp D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/src/surfacemeshprocessing.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\flat.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\flatlines.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\points.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\smooth.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\wire.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\hiddenlines.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\Update.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\remesher.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\ClearMesh.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\saveScreen.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\Open.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\Save.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\clear_select.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\move_vertex.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\selectEdges.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\selectFaces.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\selectVertices.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\doubleviewmode.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\singleviewmode.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\multiviewmode.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\Boundary.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\curvature.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\selections.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\bbox.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\topology-edgeCollapse.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\topology-edgeSplit.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\topology-edgeFlip.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\edit-redo.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\edit-undo.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\src\surfacemeshprocessing.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\qrc_surfacemeshprocessing.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qrc_surfacemeshprocessing.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\QT\5.13.0\msvc2017_64\bin\rcc.exe --name surfacemeshprocessing --output D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/qrc_surfacemeshprocessing.cpp D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/src/surfacemeshprocessing.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\flat.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\flatlines.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\points.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\smooth.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\wire.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\hiddenlines.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\Update.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\remesher.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\ClearMesh.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\saveScreen.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\Open.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\Save.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\clear_select.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\move_vertex.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\selectEdges.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\selectFaces.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\selectVertices.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\doubleviewmode.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\singleviewmode.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\multiviewmode.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\Boundary.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\curvature.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\selections.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\bbox.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\topology-edgeCollapse.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\topology-edgeSplit.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\topology-edgeFlip.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\edit-redo.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\Images\edit-undo.png;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\src\surfacemeshprocessing.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\qrc_surfacemeshprocessing.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\Cmakelists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main -BD:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build --check-stamp-file D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\CMakeFiles\3.25.0\CMakeSystem.cmake;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\surfacemeshprocessing.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main -BD:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build --check-stamp-file D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\QT\5.13.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\CMakeFiles\3.25.0\CMakeSystem.cmake;D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\surfacemeshprocessing.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\MeshViewer\bilateral.cpp" />
+    <ClCompile Include="..\src\MeshViewer\InteractiveViewerWidget.cpp" />
+    <ClCompile Include="..\src\MeshViewer\CloudFusion.cpp" />
+    <ClCompile Include="..\src\MeshViewer\PCL_ICP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\MeshViewer\regmix.cpp" />
+    <ClCompile Include="..\src\MeshViewer\test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\SurfaceFramework_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\.vs">
+    </None>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\ANN.cpp" />
+    <ClInclude Include="..\src\MeshViewer\bilateral.h" />
+    <ClInclude Include="..\src\MeshViewer\CloudFusion.h" />
+    <ClInclude Include="..\src\MeshViewer\InteractiveViewerWidget.h" />
+    <ClInclude Include="..\src\MeshViewer\PCL_ICP.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\ANN.h" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\ANNperf.h" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\ANNx.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\bd_fix_rad_search.cpp" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\bd_pr_search.cpp" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\bd_search.cpp" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\bd_tree.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\bd_tree.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\brute.cpp" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_dump.cpp" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_fix_rad_search.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_fix_rad_search.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_pr_search.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_pr_search.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_search.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_search.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_split.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_split.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_tree.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_tree.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_util.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_util.h" />
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\meshviewer.sln">
+    </None>
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\meshviewer.vcxproj">
+    </None>
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\meshviewer.vcxproj.filters">
+    </None>
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\meshviewer.vcxproj.user">
+    </None>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\perf.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\pr_queue.h" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\pr_queue_k.h" />
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\x64">
+    </None>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\Aux_Transform_Mesh_Dialog.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MainViewerWidget.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MainViewerWidget.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshParamDialog.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshParamDialog.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\main.cpp" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\surfacemeshprocessing.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\surfacemeshprocessing.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\Auxiliary_Function_Mesh.cpp" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshDefinition.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshDefinition.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshViewerWidget.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshViewerWidget.h" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\OpenglHeaders.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\QGLViewerWidget.cpp" />
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\QGLViewerWidget.h" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\qrc_surfacemeshprocessing.cpp" />
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\SurfaceFramework_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\ZERO_CHECK.vcxproj">
+      <Project>{BA1510E3-99C6-3D08-8EC4-790F089044C7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

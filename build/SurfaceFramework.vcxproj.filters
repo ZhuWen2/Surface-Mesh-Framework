@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\SurfaceFramework_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\ANN.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\bd_fix_rad_search.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\bd_pr_search.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\bd_search.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\bd_tree.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\brute.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_dump.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_fix_rad_search.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_pr_search.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_search.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_split.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_tree.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_util.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\perf.cpp">
+      <Filter>ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MainViewerWidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshParamDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\main.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\surfacemeshprocessing.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\Auxiliary_Function_Mesh.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshDefinition.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshViewerWidget.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\QGLViewerWidget.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\qrc_surfacemeshprocessing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\build\SurfaceFramework_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MeshViewer\bilateral.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MeshViewer\InteractiveViewerWidget.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MeshViewer\PCL_ICP.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MeshViewer\test.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MeshViewer\regmix.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MeshViewer\CloudFusion.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\ANN.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\ANNperf.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\ANNx.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\bd_tree.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_fix_rad_search.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_pr_search.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_search.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_split.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_tree.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\kd_util.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\pr_queue.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\pr_queue_k.h">
+      <Filter>ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\Aux_Transform_Mesh_Dialog.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MainViewerWidget.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshParamDialog.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\surfacemeshprocessing.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshDefinition.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\MeshViewerWidget.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\OpenglHeaders.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\MeshViewer\QGLViewerWidget.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MeshViewer\bilateral.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MeshViewer\InteractiveViewerWidget.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MeshViewer\PCL_ICP.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MeshViewer\CloudFusion.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\surfacemeshprocessing.qrc" />
+    <CustomBuild Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\Cmakelists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\.vs">
+      <Filter>ANN</Filter>
+    </None>
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\meshviewer.sln">
+      <Filter>ANN</Filter>
+    </None>
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\meshviewer.vcxproj">
+      <Filter>ANN</Filter>
+    </None>
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\meshviewer.vcxproj.filters">
+      <Filter>ANN</Filter>
+    </None>
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\meshviewer.vcxproj.user">
+      <Filter>ANN</Filter>
+    </None>
+    <None Include="D:\XTOP\XTOPwork\mesh\meshview\Surface-Mesh-Framework-main\src\ANN\x64">
+      <Filter>ANN</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ANN">
+      <UniqueIdentifier>{2C985134-97AC-367A-9641-A970D21ABB7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{3E1188BA-C68B-39DE-9B31-66FC89B0B2CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshViewer">
+      <UniqueIdentifier>{D04C86A0-D87C-3228-BFD4-F12022DDCFE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{151B7D91-5539-3477-BC42-40C1024F5074}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
