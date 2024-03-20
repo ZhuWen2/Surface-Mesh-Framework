@@ -1,0 +1,3 @@
+D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/CMakeFiles/SurfaceFramework.dir
+D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/CMakeFiles/ALL_BUILD.dir
+D:/XTOP/XTOPwork/mesh/meshview/Surface-Mesh-Framework-main/build/CMakeFiles/ZERO_CHECK.dir
